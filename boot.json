@@ -1,0 +1,160 @@
+{
+  "name": "Pity Clothing",
+  "version": "0.0.2",
+  "styleFileList": [
+  ],
+  "scriptFileList_earlyload": [
+  ],
+  "scriptFileList_inject_early": [
+  ],
+  "scriptFileList_preload": [
+  ],
+  "scriptFileList": [
+  ],
+  "tweeFileList": [
+  ],
+  "imgFileList": [
+//cross corset//
+    "img/misc/icon/clothes/crosscorset.png",
+    "img/clothes/upper/crosscorset/full.png",
+	"img/clothes/upper/crosscorset/frayed.png",
+	"img/clothes/upper/crosscorset/tattered.png",
+	"img/clothes/upper/crosscorset/torn.png",
+	"img/clothes/upper/crosscorset/full_gray.png",
+	"img/clothes/upper/crosscorset/frayed_gray.png",
+	"img/clothes/upper/crosscorset/tattered_gray.png",
+	"img/clothes/upper/crosscorset/torn_gray.png",
+	"img/clothes/upper/crosscorset/0_gray.png",
+	"img/clothes/upper/crosscorset/1_gray.png",
+	"img/clothes/upper/crosscorset/2_gray.png",
+	"img/clothes/upper/crosscorset/3_gray.png",
+	"img/clothes/upper/crosscorset/4_gray.png",
+	"img/clothes/upper/crosscorset/5_gray.png",
+	"img/clothes/upper/crosscorset/6_gray.png",
+//sparkle sailor top//
+    "img/misc/icon/clothes/crosscorset.png",
+    "img/clothes/upper/sparkle sailor top/full_gray.png",
+	"img/clothes/upper/sparkle sailor top/frayed_gray.png",
+	"img/clothes/upper/sparkle sailor top/tattered_gray.png",
+	"img/clothes/upper/sparkle sailor top/torn_gray.png",
+    "img/clothes/upper/sparkle sailor top/acc.png",
+    "img/clothes/upper/sparkle sailor top/acc_gray.png",
+	"img/clothes/upper/sparkle sailor top/left_gray.png",
+	"img/clothes/upper/sparkle sailor top/acc_right_gray.png",
+	"img/clothes/upper/sparkle sailor top/right_gray.png",
+	"img/clothes/upper/sparkle sailor top/right_cover_gray.png",
+    "img/misc/icon/clothes/crosscorset.png",
+//sparkle sailor skirt//
+    "img/clothes/lower/sparkle sailor skirt/full_gray.png",
+	"img/clothes/lower/sparkle sailor skirt/frayed_gray.png",
+	"img/clothes/lower/sparkle sailor skirt/tattered_gray.png",
+	"img/clothes/lower/sparkle sailor skirt/torn_gray.png",
+//sparkle sailor tie//
+    "img/clothes/neck/sparkle sailor tie/full_gray.png",
+    "img/misc/icon/clothes/crosscorset.png",
+//sleeveless kitten sweater//
+    "img/clothes/upper/sleeveless kitten sweater/full_gray.png",
+	"img/clothes/upper/sleeveless kitten sweater/frayed_gray.png",
+	"img/clothes/upper/sleeveless kitten sweater/tattered_gray.png",
+	"img/clothes/upper/sleeveless kitten sweater/torn_gray.png"
+
+  ],
+  "imgFileReplaceList": [
+  ],
+  "additionFile": [
+	"json/face.json",
+	"json/feet.json",
+	"json/hands.json",
+	"json/head.json",
+	"json/legs.json",
+	"json/lower.json",
+    "json/neck.json",
+	"json/over_head.json",
+	"json/over_lower.json",
+	"json/over_upper.json",
+	"json/under_lower.json",
+	"json/under_upper.json",
+	"json/upper.json",
+	"readme.txt"
+  ],
+  "addonPlugin": [
+    {
+      "modName": "ModdedClothesAddon",
+      "addonName": "ModdedClothesAddon",
+      "modVersion": "^1.0.0",
+      "params": {
+        "clothes": [
+          {
+            "key": "face",
+            "filePath": "json/face.json"
+          },
+          {
+            "key": "feet",
+            "filePath": "json/feet.json"
+          },
+          {
+            "key": "hands",
+            "filePath": "json/hands.json"
+		  },	
+		  {
+            "key": "head",
+            "filePath": "json/head.json"
+		  },	
+          {
+            "key": "legs",
+            "filePath": "json/legs.json"
+		  },
+          {
+            "key": "lower",
+            "filePath": "json/lower.json"
+		  },
+          {
+            "key": "neck",
+            "filePath": "json/neck.json"
+      },
+          {
+            "key": "over_head",
+            "filePath": "json/over_head.json"
+		  },
+          {
+            "key": "over_lower",
+            "filePath": "json/over_lower.json"
+		  },
+          {
+            "key": "over_upper",
+            "filePath": "json/over_upper.json"
+		  },			  
+          {
+            "key": "under_lower",
+            "filePath": "json/under_lower.json"
+          },			
+          {
+            "key": "under_upper",
+            "filePath": "json/under_upper.json"
+          },
+          {
+            "key": "upper",
+            "filePath": "json/upper.json"
+          }		  
+        ]
+      }
+    },
+    {
+      "modName": "ModLoader DoL ImageLoaderHook",
+      "addonName": "ImageLoaderAddon",
+      "modVersion": "^2.3.0",
+      "params": [
+      ]
+    }
+  ],
+  "dependenceInfo": [
+    {
+      "modName": "ModdedClothesAddon",
+      "version": "^1.0.0"
+    },
+    {
+      "modName": "ModLoader DoL ImageLoaderHook",
+      "version": "^2.3.0"
+    }
+  ]
+}
