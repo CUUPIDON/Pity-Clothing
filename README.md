@@ -2,9 +2,7 @@
 A small modpack for my custom clothes! Please use [ModLoader](https://github.com/Lyoko-Jeremie/DoLModLoaderBuild/releases) to install.
 
 ## Preview
-![kitten](https://github.com/CUUPIDON/Pity-Clothing/assets/73448507/2fc41ee1-08fa-48d4-94ba-7c123f847860)![sparkle sailor top](https://github.com/CUUPIDON/Pity-Clothing/assets/73448507/6d2295cf-638f-4fc0-b461-3bff3691bc15)![cross corset](https://github.com/CUUPIDON/Pity-Clothing/assets/73448507/b16313f3-71b2-495d-a151-a414f199edcf)
-
-
+![sparkle sailor top](https://github.com/CUUPIDON/Pity-Clothing/assets/73448507/b98d0701-f62c-4c70-b09c-a09c87c2a92d)![kitten](https://github.com/CUUPIDON/Pity-Clothing/assets/73448507/fd3ca257-d244-466f-bb58-9a692988d983)![cross corset](https://github.com/CUUPIDON/Pity-Clothing/assets/73448507/3a149aba-7696-4ea2-a9ff-67cd5f8fe248)
 
 ## Install Instructions 
-![Install Instructions](https://github.com/CUUPIDON/Pity-Hair/assets/73448507/13b86585-d0fa-480d-b52c-e3a18ef714cc)
+![Install Instructions](https://github.com/CUUPIDON/Pity-Clothing/assets/73448507/ca7ec54a-9357-415c-8600-7e9184d82255)
